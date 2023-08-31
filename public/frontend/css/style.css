@@ -1,0 +1,94 @@
+body{
+    background-color: #d2d4d2;
+    font-size: 15px;
+}
+.btn{
+    padding: 10px;
+}
+
+
+/*-----------Auth Form-------------*/
+.auth-form{
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+
+.btn-theme{
+    background-color: #07a336;
+    color: #fff;
+}
+.btn-theme:hover{
+    background-color: #02b538;
+    color: #fff;
+}
+
+.auth-form a{
+    text-decoration: none;
+    color: #07a336;
+}
+.auth-form a:hover{
+    text-decoration: none;
+    color: #02b538;
+}
+
+/*-----------Header Menu-------------*/
+.header-menu{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.header-menu i{
+    
+    font-size: 20px;
+}
+.header-menu h3{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.header-menu a{
+    color: #333;
+    text-decoration: none;
+}
+.header-menu a:hover{
+    color: #07a336;
+    transition: 0.3s;
+}
+
+/*-----------Bottom Menu-------------*/
+.bottom-menu{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bottom-menu i{
+    margin-top: 12px;
+    font-size: 20px;
+}
+.bottom-menu p{
+    margin-bottom: 12px;
+}
+
+.bottom-menu a{
+    color: #333;
+    text-decoration: none;
+}
+.bottom-menu a:hover{
+    color: #07a336;
+    transition: 0.3s;
+}
+
+/*-----------Main Content-------------*/
+.content{
+    margin-top: 55px;
+}

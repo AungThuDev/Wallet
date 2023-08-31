@@ -20,7 +20,6 @@ class AdminUserSeeder extends Seeder
             'email' => 'aungthuhtut@gmail.com',
             'password' => Hash::make('password'),
             'phone' => '09254208419',
-
         ]);
     }
 }
